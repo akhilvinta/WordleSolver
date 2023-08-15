@@ -1,0 +1,42 @@
+I will split this question up based on 2 different types of test banks:
+
+
+
+I will call a question a P-Question if it has been asked on a past contest, and an N-Question if it has not been asked on a past contest. 
+
+
+
+Probability of getting asked exactly 3 questions that were asked in past contests if questions are drawn from the test bank of size 15 questions: ------------------------------------------------------------------------
+
+Sample Space: 5P and 10N. These are picked from without replacement. Because of this, I will use the hypergeometric distribution to find P(3P) which equals P(3P and 7N). 
+
+he probability that the participant will be asked 3 past questions and 7 non-past questions is:
+
+P(3P and 7N) = (5nCr3)(10nCr7) / (15nCr10) = 0.4
+
+
+
+Probability of getting asked exactly 3 questions that were asked in past contests if questions are drawn from the test bank of size 20 questions: ------------------------------------------------------------------------
+
+Sample Space: 7P and 13N. These are picked from without replacement. Because of this, I will use the hypergeometric distribution to find P(3P) which equals P(3P and 7N). 
+
+
+
+The probability that the participant will be asked 3 past questions and 7 non-past questions is
+
+P(3P and 7N) = (7nCr3)(13nCr7) / (20nCr10) = 0.325.
+
+
+
+Total Evaluation: ------------------------------------------------------------------------
+
+
+
+There is a 30% chance that the contestant will be given a test bank of 15 questions, in which case there is a 0.4 probability of 3P and 7N. 
+
+There is a 70% chance that the contestant will be given a test bank of 20 questions, in which case there is a 0.325 probability of 3P and 7. 
+
+
+
+Overall, the contestant has (0.3)(0.4) + (0.7)(0.325) = .12+.2275 = .3475 probability of getting asked exactly 3 questions that were asked in past contests. 
+
